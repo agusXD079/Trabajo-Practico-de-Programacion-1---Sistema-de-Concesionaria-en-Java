@@ -87,6 +87,14 @@ public class Concesionaria {
         }
     }
     
+    public void mostrarPrecioPromedioInventario() {
+        double promedio = inventario.stream()
+            .mapToDouble(Vehiculo::getPrecio)
+            .average()
+            .orElse(0);
+
+        System.out.println("\nPrecio promedio del inventario: $" + promedio);
+    }
 
     public void ordenarClientesPorApellido() {
         List<Persona> lista = new ArrayList<>(clientes.values());
