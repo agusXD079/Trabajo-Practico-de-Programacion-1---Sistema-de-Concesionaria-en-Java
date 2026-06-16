@@ -32,7 +32,8 @@ public class Main {
         System.out.println("3. Vender vehiculo");
         System.out.println("4. Mostrar vehiculos disponibles");
         System.out.println("5. Mostrar inventario ordenado por precio");
-        System.out.println("6. Realizar test drive");
+        System.out.println("6. Mostrar precio promedio del inventario");
+        System.out.println("7. Realizar test drive");
         System.out.println("0. Salir");
         System.out.print("Opcion: ");
     }
@@ -54,9 +55,9 @@ public class Main {
             case 5:
                 concesionaria.mostrarInventarioOrdenadoPorPrecio();
                 break; 
-
-
-                
+            case 6:
+                concesionaria.mostrarPrecioPromedioInventario();
+                break;    
             case 7:
                 realizarTestDrive();
                 break;
