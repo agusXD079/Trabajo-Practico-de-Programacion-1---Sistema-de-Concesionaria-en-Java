@@ -4,8 +4,8 @@ Trabajo Práctico de Programación 1 - IFES
 
 ## Integrantes
 
+* Thiago Vecchi
 * Franco Araneda
-* 
 * Ángel Venditti
 
 ## Descripción
