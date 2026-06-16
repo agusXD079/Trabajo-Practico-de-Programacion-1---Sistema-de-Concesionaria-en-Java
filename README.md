@@ -1,11 +1,9 @@
-# Trabajo-Pr-ctico-de-Programaci-n-1---Sistema-de-Concesionaria-en-Java
 # Sistema de Concesionaria
-
-Trabajo Práctico de Programación 1 - IFES
+#Trabajo Práctico de Programación 1 - IFES
 
 ## Integrantes
 
-* 
+* Thiago Vecchi
 * Franco Araneda
 * Ángel Venditti
 
