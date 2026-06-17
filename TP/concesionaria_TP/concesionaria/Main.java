@@ -30,10 +30,10 @@ public class Main {
         System.out.println("1. Agregar vehiculo");
         System.out.println("2. Registrar cliente");
         System.out.println("3. Vender vehiculo");
-        System.out.println("4. Mostrar vehiculos disponibles");
-        System.out.println("5. Mostrar inventario ordenado por precio");
-        System.out.println("6. Mostrar precio promedio del inventario");
-        System.out.println("7. Realizar test drive");
+        System.out.println("4. Realizar test drive");
+        System.out.println("5. Mostrar vehiculos disponibles");
+        System.out.println("6. Mostrar inventario ordenado por precio");
+        System.out.println("7. Mostrar precio promedio del inventario");
         System.out.println("0. Salir");
         System.out.print("Opcion: ");
     }
@@ -50,17 +50,17 @@ public class Main {
                 venderVehiculo();
                 break;
             case 4:
-                concesionaria.mostrarVehiculosDisponibles();
-                break;
-            case 5:
-                concesionaria.mostrarInventarioOrdenadoPorPrecio();
-                break; 
-            case 6:
-                concesionaria.mostrarPrecioPromedioInventario();
-                break;    
-            case 7:
                 realizarTestDrive();
                 break;
+            case 5:
+                concesionaria.mostrarVehiculosDisponibles();
+                break;
+            case 6:
+                concesionaria.mostrarInventarioOrdenadoPorPrecio();
+                break; 
+            case 7:
+                concesionaria.mostrarPrecioPromedioInventario();
+                break;    
             case 0:
                 break;
             default:
