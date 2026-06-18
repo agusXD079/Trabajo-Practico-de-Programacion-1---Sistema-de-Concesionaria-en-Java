@@ -13,9 +13,8 @@ Sistema de gestión de una concesionaria desarrollado en Java. Permite registrar
 
 ## Compilación
 
-Ubicarse en la carpeta del proyecto y ejecutar:
+Abrir la terminal de **PowerShell** en el directorio raíz del proyecto y ejecuta:
 
-powershell
 javac -d bin (Get-ChildItem -Recurse *.java | Select-Object -ExpandProperty FullName)
 
 ## Ejecución
